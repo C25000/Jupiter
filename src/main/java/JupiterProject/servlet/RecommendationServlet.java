@@ -1,8 +1,8 @@
-package projectJupiter.servlet;
+package backendJupiter.servlet;
 
-import projectJupiter.entity.Item;
-import projectJupiter.recommendation.ItemRecommender;
-import projectJupiter.recommendation.RecommendationException;
+import backendJupiter.entity.Item;
+import backendJupiter.recommendation.ItemRecommender;
+import backendJupiter.recommendation.RecommendationException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

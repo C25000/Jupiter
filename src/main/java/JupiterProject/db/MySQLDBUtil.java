@@ -1,4 +1,4 @@
-package projectJupiter.db;
+package backendJupiter.db;
 
 import java.io.IOException;
 import java.io.InputStream;

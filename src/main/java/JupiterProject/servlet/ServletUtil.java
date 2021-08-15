@@ -1,9 +1,9 @@
-package projectJupiter.servlet;
+package backendJupiter.servlet;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import projectJupiter.entity.Item;
+import backendJupiter.entity.Item;
 import org.apache.commons.codec.digest.DigestUtils;
 
 import javax.servlet.http.HttpServletRequest;

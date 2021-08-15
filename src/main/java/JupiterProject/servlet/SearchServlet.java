@@ -1,7 +1,7 @@
-package projectJupiter.servlet;
+package backendJupiter.servlet;
 
-import projectJupiter.external.TwitchClient;
-import projectJupiter.external.TwitchException;
+import backendJupiter.external.TwitchClient;
+import backendJupiter.external.TwitchException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

@@ -1,10 +1,10 @@
-package projectJupiter.servlet;
+package backendJupiter.servlet;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import projectJupiter.db.MySQLConnection;
-import projectJupiter.db.MySQLException;
-import projectJupiter.entity.LoginRequestBody;
-import projectJupiter.entity.LoginResponseBody;
+import backendJupiter.db.MySQLConnection;
+import backendJupiter.db.MySQLException;
+import backendJupiter.entity.LoginRequestBody;
+import backendJupiter.entity.LoginResponseBody;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

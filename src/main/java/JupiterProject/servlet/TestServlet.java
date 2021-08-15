@@ -1,4 +1,4 @@
-package projectJupiter.servlet;
+package backendJupiter.servlet;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
