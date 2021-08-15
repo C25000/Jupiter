@@ -1,13 +1,13 @@
-package backendJupiter.recommendation;
+package JupiterProject.recommendation;
 
 
-import backendJupiter.db.MySQLConnection;
-import backendJupiter.db.MySQLException;
-import backendJupiter.entity.Item;
-import backendJupiter.entity.ItemType;
-import backendJupiter.external.TwitchClient;
-import backendJupiter.external.TwitchException;
-import backendJupiter.entity.Game;
+import JupiterProject.db.MySQLConnection;
+import JupiterProject.db.MySQLException;
+import JupiterProject.entity.Item;
+import JupiterProject.entity.ItemType;
+import JupiterProject.external.TwitchClient;
+import JupiterProject.external.TwitchException;
+import JupiterProject.entity.Game;
 
 import java.util.*;
 import java.util.function.Function;

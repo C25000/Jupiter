@@ -1,4 +1,4 @@
-package backendJupiter.entity;
+package JupiterProject.entity;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

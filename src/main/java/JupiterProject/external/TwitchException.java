@@ -1,4 +1,4 @@
-package backendJupiter.external;
+package JupiterProject.external;
 
 public class TwitchException extends RuntimeException {
     public TwitchException(String errorMessage) {

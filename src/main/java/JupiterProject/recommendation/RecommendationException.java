@@ -1,4 +1,4 @@
-package backendJupiter.recommendation;
+package JupiterProject.recommendation;
 
 public class RecommendationException extends RuntimeException {
     public RecommendationException(String errorMessage) {

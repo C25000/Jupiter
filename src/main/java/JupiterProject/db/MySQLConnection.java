@@ -1,8 +1,8 @@
-package backendJupiter.db;
+package JupiterProject.db;
 
-import backendJupiter.entity.Item;
-import backendJupiter.entity.ItemType;
-import backendJupiter.entity.User;
+import JupiterProject.entity.Item;
+import JupiterProject.entity.ItemType;
+import JupiterProject.entity.User;
 
 import java.sql.*;
 import java.util.*;

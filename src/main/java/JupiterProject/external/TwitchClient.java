@@ -1,10 +1,10 @@
-package backendJupiter.external;
+package JupiterProject.external;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import backendJupiter.entity.Item;
-import backendJupiter.entity.ItemType;
-import backendJupiter.entity.Game;
+import JupiterProject.entity.Item;
+import JupiterProject.entity.ItemType;
+import JupiterProject.entity.Game;
 import org.apache.http.HttpEntity;
 import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpGet;

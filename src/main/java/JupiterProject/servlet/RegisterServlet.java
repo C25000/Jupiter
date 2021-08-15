@@ -1,8 +1,8 @@
-package backendJupiter.servlet;
+package JupiterProject.servlet;
 
-import backendJupiter.db.MySQLConnection;
-import backendJupiter.db.MySQLException;
-import backendJupiter.entity.User;
+import JupiterProject.db.MySQLConnection;
+import JupiterProject.db.MySQLException;
+import JupiterProject.entity.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
