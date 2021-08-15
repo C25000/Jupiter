@@ -8,7 +8,7 @@ public class MySQLTableCreator {
     public static void main(String[] args) {
         try {
 
-            // Step 1 Connect to MySQL.
+            // Connect to MySQL.
             System.out.println("Connecting to " + MySQLDBUtil.getMySQLAddress());
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
             Connection conn = DriverManager.getConnection(MySQLDBUtil.getMySQLAddress());
@@ -17,7 +17,7 @@ public class MySQLTableCreator {
                 return;
             }
 
-            // Step 2 Drop tables in case they exist.
+            // Drop tables in case they exist.
             Statement statement = conn.createStatement();
             String sql = "DROP TABLE IF EXISTS favorite_records";
             statement.executeUpdate(sql);
@@ -27,7 +27,7 @@ public class MySQLTableCreator {
 
             sql = "DROP TABLE IF EXISTS users";
             statement.executeUpdate(sql);
-            // Step 3 Create new tables.
+            // Create new tables.
             sql = "CREATE TABLE items ("
                     + "id VARCHAR(255) NOT NULL,"
                     + "title VARCHAR(255),"
@@ -60,7 +60,7 @@ public class MySQLTableCreator {
             statement.executeUpdate(sql);
 
 
-            // Step 4: insert fake user 1111/3229c1097c00d497a0fd282d586be050.
+            // insert fake user 1111/3229c1097c00d497a0fd282d586be050 for testing.
             sql = "INSERT INTO users VALUES('1111', '3229c1097c00d497a0fd282d586be050', 'John', 'Smith')";
             statement.executeUpdate(sql);
 

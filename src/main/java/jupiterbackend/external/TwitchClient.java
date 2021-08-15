@@ -44,7 +44,7 @@ public class TwitchClient {
             return String.format(url, limit);
         } else {
             try {
-                // Encode special characters in URL, e.g. Rick Sun -> Rick%20Sun
+                // Encode special characters in URL
                 gameName = URLEncoder.encode(gameName, "UTF-8");
             } catch (UnsupportedEncodingException e) {
                 e.printStackTrace();
