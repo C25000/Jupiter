@@ -1,4 +1,4 @@
-package JupiterProject.db;
+package jupiterbackend.db;
 
 public class MySQLException extends RuntimeException {
     public MySQLException(String errorMessage) {

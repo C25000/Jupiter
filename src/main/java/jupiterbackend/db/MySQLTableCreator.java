@@ -1,4 +1,4 @@
-package JupiterProject.db;
+package jupiterbackend.db;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

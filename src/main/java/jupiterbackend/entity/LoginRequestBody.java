@@ -1,4 +1,4 @@
-package JupiterProject.entity;
+package jupiterbackend.entity;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

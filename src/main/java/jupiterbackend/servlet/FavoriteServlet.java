@@ -1,9 +1,9 @@
-package JupiterProject.servlet;
+package jupiterbackend.servlet;
 
-import JupiterProject.entity.Item;
-import JupiterProject.db.MySQLConnection;
-import JupiterProject.db.MySQLException;
-import JupiterProject.entity.FavoriteRequestBody;
+import jupiterbackend.entity.Item;
+import jupiterbackend.db.MySQLConnection;
+import jupiterbackend.db.MySQLException;
+import jupiterbackend.entity.FavoriteRequestBody;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

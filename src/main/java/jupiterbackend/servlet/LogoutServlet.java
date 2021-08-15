@@ -1,4 +1,4 @@
-package JupiterProject.servlet;
+package jupiterbackend.servlet;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
